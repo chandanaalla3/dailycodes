@@ -3,5 +3,6 @@ def gcd(a,b):
   if a == 0 :
     return b 
   return gcd(b%a, a)
-n = int(input())
+a = int(input())
+b = int(input())
 print(gcd(a,b))
